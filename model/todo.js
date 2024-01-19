@@ -22,4 +22,3 @@ export function createToDo(title, description) {
     return { getTitle, setTitle, getDescription, setDescription };
   }
 
-  

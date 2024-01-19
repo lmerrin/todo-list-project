@@ -1,13 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
     <title>To Do List</title>
-</head>
-<body>
-    
+  </head>
+  <body>
+
+    <div class="sidebar"></div>
+
+    <div class="main-content">
+
+        <form action="" id="create-todo">
+        <input type="text" name="title" />
+        <input type="text" name="description" />
+        <button id="btn-create-todo">Create</button>
+        </form>
+
+       <div class="list-container"></div>
+       
+    </div>
+
     <script src="./main.js" type="module"></script>
-</body>
+  </body>
 </html>
